@@ -5,5 +5,4 @@
 </template>
 
 <style lang="scss">
-@import'./style/bass'
 </style>

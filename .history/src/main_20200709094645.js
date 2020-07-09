@@ -6,12 +6,8 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import mavonEditor from 'mavon-editor'
 import 'mavon-editor/dist/css/index.css'
-import VCharts from 'v-charts'
-import JsonExcel from 'vue-json-excel'
 Vue.use(ElementUI);
-Vue.use(mavonEditor);
-Vue.use(VCharts);
-Vue.component('downloadExcel', JsonExcel)
+
 Vue.config.productionTip = false
 
 new Vue({
@@ -23,3 +19,13 @@ new Vue({
 }).$mount('#app')
 
 
+
+
+// 全局注册
+import Vue from 'vue'
+
+// use
+
+new Vue({
+  'el': '#main'
+})
