@@ -11,7 +11,7 @@
     justify-content: space-around;
 }
 .jc_e{
-    justify-content: end;
+    justify-content:flex-end;
 }
 .ai_c{
     align-items: center;
@@ -90,4 +90,7 @@
 }
 .pr1{
     padding-right: 10px;
+}
+.fxe{
+    flex: end;
 }
